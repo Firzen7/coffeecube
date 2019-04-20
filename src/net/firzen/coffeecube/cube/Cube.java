@@ -11,10 +11,6 @@ import net.firzen.coffeecube.exceptions.PointException;
 import net.firzen.coffeecube.other.Useful;
 
 public class Cube extends AbstractCube {
-	public Cube() {
-		
-	}
-	
 	public Cube(int size) throws Exception {
 		setSize(size);
 		initCube(size);

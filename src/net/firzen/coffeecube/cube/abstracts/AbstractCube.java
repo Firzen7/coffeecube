@@ -59,7 +59,7 @@ public abstract class AbstractCube implements ICube {
 		this.redoMoves = redoMoves;
 	}
 
-	public void setSize(int size) throws Exception {
+	public void setSize(int size) {
 		this.size = size;
 	}
 
